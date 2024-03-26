@@ -1,0 +1,15 @@
+{
+  "name": "projeto-hamburgueria",
+  "version": "1.0.0",
+  "description": "Projeto site de uma hamburgueria do sujeito programador no youtube",
+  "main": "index.js",
+  "scripts": {
+    "dev":"npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
