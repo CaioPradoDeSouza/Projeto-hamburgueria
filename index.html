@@ -121,16 +121,16 @@
 
     </div>
 
-    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden" id="cart-modal">
 
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[500px]">
             <h2 class="text-center font-semibold text-2xl mb-2">Meu carrinho</h2>
 
-            <div id="cards-item" class="flex justify-between mb-2 flex-col">
+            <div id="cart-items" class="flex justify-between mb-2 flex-col">
 
             </div>
 
-            <p class="font-bold">Total: <span id="card-total">0.00</span></p>
+            <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
 
             <p class="font-bold mt-3 mb-3">Endereço de entrega:</p>
             
@@ -139,7 +139,7 @@
 
             <div class="flex items-center justify-between mt-4 w-full">
                 <button id="close-modal-btn">Fechar</button>
-                <button id="check-out" class="bg-green-500 text-white px-4 rounded py-1">Finalizar pedido</button>
+                <button id="checkout-btn" class="bg-green-500 text-white px-4 rounded py-1">Finalizar pedido</button>
             </div>
 
         </div>
@@ -154,5 +154,6 @@
         </button>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
